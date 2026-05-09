@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+ 
+    font-family: 'Outfit', sans-serif;
+    background-color: #f3e7d8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+    color: #5f564d;
+}
+
+.container {
+ 
+ overflow: hidden;
+  background-color: white;
+  max-width: 720px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 20px;
+  transition: all 300ms ease-in;
+
+}
+
+@media (max-width:600px)
+{
+  body {
+    padding: 0px;
+  }
+  .container {
+    
+    border-radius: 0px;
+  }
+}
+
+.recipe-image {
+  background-image: url(images/image-omelette.jpeg);
+  height: 300px;
+  background-size: cover;
+  border-radius: 20px;
+
+}
+
+section {
+  /* width: 100%; */
+  margin: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  padding: 15px;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.container:hover {
+  box-shadow: 0px 20px 50px;
+  scale: 1.01;
+}
+
+.heading-des {
+  margin-left: 0px;
+  line-height: 2;
+
+}
+
+.heading-des h1 {
+  font-size: 40px;
+}
+
+.pre-time {
+  background-color: #fff5fa;
+  padding:25px;
+  line-height: 1.6;
+  border-radius: 15px;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+li {
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+
+.ingredients {
+  margin: 0px;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.instructions {
+margin-left: 0px;
+}
+
+.nutrition {
+  margin-left: 0px;
+}
+
+
+li::marker{
+  color: #854632;
+}
+
+h2 {
+  color: #854632;
+}
+strong {
+  color: #854632;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
