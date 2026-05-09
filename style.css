@@ -40,7 +40,7 @@ body {
 }
 
 .recipe-image {
-  background-image: url(images/image-omelette.jpeg);
+  background-image: url(image-omelette.jpeg);
   height: 300px;
   background-size: cover;
   border-radius: 20px;
